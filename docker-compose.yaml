@@ -1,0 +1,23 @@
+version: "3"
+
+services:
+  redis:
+    image: redis
+  redis_commander:
+    image: rediscommander/redis-commander
+    ports:
+      - "8081:8081"
+    environment:
+      - REDIS_HOST=redis
+      - PORT=8081
+    depends_on:
+      - redis
+  rest_api:
+    build: .
+    command: /start-reload.sh
+    volumes:
+      - ./app:/app
+    ports:
+      - "8000:80"
+    depends_on:
+      - redis

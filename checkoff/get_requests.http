@@ -1,0 +1,17 @@
+### 1. Retrieve ALL games
+GET http://127.0.0.1:8000/games HTTP/1.1
+
+### 2. Retrieve a game by ID
+GET http://127.0.0.1:8000/games/3251528 HTTP/1.1
+
+### 3. Retrieve a limited number of games
+GET http://127.0.0.1:8000/games?count=3 HTTP/1.1
+
+### 4. Retrieve games sorted by price in ascending order
+GET http://127.0.0.1:8000/games?sortBy=price HTTP/1.1
+
+### 5. Retrieve games, offseting the front by a number
+GET http://127.0.0.1:8000/games?offset=1 HTTP/1.1
+
+### 6. Retrieve 3 games, sorted by price and offset by 1 
+GET http://127.0.0.1:8000/games?count=3&offset=1&sortBy=price HTTP/1.1

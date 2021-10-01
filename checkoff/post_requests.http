@@ -1,0 +1,51 @@
+### 1. Create a new game
+POST http://127.0.0.1:8000/games HTTP/1.1
+Content-Type: application/json
+apikey: password123
+
+{
+    "name": "Pokemon Red",
+    "price": 59.99,
+    "description": "Pokémon (an abbreviation for Pocket Monsters in Japan) is a Japanese media franchise managed by The Pokémon Company, a company founded by Nintendo, Game Freak, and Creatures."
+}
+### 1. Create a new game
+POST http://127.0.0.1:8000/games HTTP/1.1
+Content-Type: application/json
+apikey: password123
+
+{
+    "name": "Digimon World",
+    "price": 39.99,
+    "description": "Digimon (short for 'Digital Monsters'), is a Japanese media franchise encompassing virtual pet toys, anime, manga, video games, films and a trading card game."
+}
+### 1. Create a new game
+POST http://127.0.0.1:8000/games HTTP/1.1
+Content-Type: application/json
+apikey: password123
+
+{
+    "name": "Cyberpunk 2077",
+    "price": 0.99,
+    "description": "Cyberpunk 2077 is an open-world, action-adventure story set in Night City, a megalopolis obsessed with power, glamour and body modification. You play as V, a mercenary outlaw going after a one-of-a-kind implant that is the key to immortality."
+}
+### 1. Create a new game
+POST http://127.0.0.1:8000/games HTTP/1.1
+Content-Type: application/json
+apikey: password123
+
+{
+    "name": "Hollow Knight: Silksong",
+    "price": 29.99,
+    "description": "Hollow Knight: Silksong is the epic sequel to Hollow Knight, the award winning action-adventure. As the lethal hunter Hornet, journey to all-new lands, discover new powers, battle vast hordes of bugs and beasts and uncover ancient secrets tied to your nature and your past."
+}
+### 1. Create a new game
+POST http://127.0.0.1:8000/games HTTP/1.1
+Content-Type: application/json
+apikey: password123
+
+{
+    "name": "Hades",
+    "price": 22,
+    "description": "Hades is a god-like rogue-like dungeon crawler that combines the best aspects of Supergiant's critically acclaimed titles, including the fast-paced action of Bastion, the rich atmosphere and depth of Transistor, and the character-driven storytelling of Pyre."
+}
+
